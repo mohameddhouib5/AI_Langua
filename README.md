@@ -34,7 +34,7 @@ LinguaAI is a web-based translation app that leverages **OpenAI's GPT-4o-mini** 
 git clone https://github.com/mohameddhouib5/AI_Langua.git
 cd  AI_langua
 
-
+```
 
 
 📚 Educational Highlights
