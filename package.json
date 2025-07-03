@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "postinstall": "chmod +x ./node_modules/.bin/vite",
-    "start": "vite",
+    "start": "node server.js",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
