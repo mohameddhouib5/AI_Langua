@@ -3,6 +3,7 @@
   "description": "https://scrimba.com/the-ai-engineer-path-c02v/~0o/s0ao193n17/head",
   "type": "module",
   "scripts": {
+    "postinstall": "chmod +x ./node_modules/.bin/vite",
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
