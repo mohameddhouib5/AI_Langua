@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PollyGlot Translator</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="assets/parrot.png" alt="Parrot Icon" height="80">
+      <h1>LinguaAI</h1>
+      <p>Perfect Translation Every Time</p>
+    </div>
+    <div class="form"  id="form-view">
+      <h3>Text to translate 👇</h3>
+      <textarea id="input-text" placeholder="How are you?"></textarea>
+      
+      <h3>Select language 👇</h3>
+      <div class="languages">
+        <label><input type="radio" name="language" checked value="fr"> French <img src="assets/fr-flag.png" class="fg-icon" height="17px" alt=""></label>
+        <label><input type="radio" name="language" value="sp"> Spanish  <img src="assets/sp-flag.png" height="17px" class="fg-icon" alt=""></label>
+        <label><input type="radio" name="language" value="jp"> Japanese  <img src="assets/jpn-flag.png" height="17px"  class="fg-icon" alt=""></label>
+      </div>
+      <button  class="button1" onclick="translateText()">Translate</button>
+      <button class="button2" onclick="window.location.href='premium.html'" > Premium chat </button>
+    </div>
+
+
+
+    <div class="result" id="result-view" style="display: none;">
+      <h3>Original text 👇</h3>
+      <div class="output-box" id="original-text"></div>
+
+      <h3 style="color: #007bff;">Your translation 👇</h3>
+      <div class="output-box" id="translated-text"></div>
+
+      <button onclick="startOver()">Start Over</button>
+    </div>
+  </div>
+  
+  <div class="about">
+    <h1>↓↓ About this project ↓↓</h1>
+  </div>
+  <div class="about-content">
+    <p>This project is a simple web-based translation tool that uses the OpenAI API to translate text into different languages. It features a user-friendly interface with options to select the target language and view translations in real-time.</p>
+
+    <p>To use this tool, simply type your text in the input area, select the desired language, and click the "Translate" button. The translated text will be displayed below.</p>
+    <p>Feel free to explore the code and customize it to suit your needs. The project is designed to be easily extendable, allowing you to add more features or improve the existing functionality.</p>
+    
+    <p>For any questions or feedback, please reach me out via : <span style="color: #024489;">mohameddhouib741@gmail.com</span>  </p>
+
+  </div>
+  <div class="about">
+    <h1>↓↓ Key takeaways from this project ↓↓</h1>
+     </div>
+      <div class="list-container">
+  
+    <ul class="item-list">
+   <ul class="topic-list">
+  <li onclick="showContent(0)">🔴 1 - OpenAI API Key</li>
+  <li onclick="showContent(1)">🟠 2 - API Management</li>
+  <li onclick="showContent(2)">🟡 3 - Prompt Engineering</li>
+  <li onclick="showContent(3)">🟢 4 - Tokens</li>
+  <li onclick="showContent(4)">🔵 5 - Temperature</li>
+  <li onclick="showContent(5)">🟣 6 - Presence and Frequency Penalties</li>
+  <li onclick="showContent(6)">⚫ 7 - Fine-Tuning</li>
+</ul>
+
+  
+    </ul>
+
+    <div class="content-area" id="content-area">
+      <!-- Selected content will appear here -->
+    </div>
+  </div>
+  <div class="footer">
+    <p style="text-align: center;">© 2025 Mohamed Dhouib</p>
+    <img src="assets/signature.png" height="100px"  alt="">
+  </div>
+</div>
+ 
+
+
+
+
+
+  <script src="index.js"></script>
+
+</body>
+</html>

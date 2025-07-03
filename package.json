@@ -1,0 +1,22 @@
+{
+  "name": "scrim-s05rqc4",
+  "description": "https://scrimba.com/the-ai-engineer-path-c02v/~0o/s0ao193n17/head",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@azure-rest/ai-inference": "^1.0.0-beta.6",
+    "@azure/core-auth": "^1.9.0",
+    "@azure/openai": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "openai": "^5.8.2",
+    "path": "^0.12.7",
+    "vite": "latest"
+  }
+}

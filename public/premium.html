@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LinguaAI Chat</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="header" style="background-image: url(assets/worldmap.png); background-size: cover; background-position: center;">
+      <img src="assets/parrot.png" alt="Parrot Icon" height="60" />
+      <h1>LinguaAI</h1>
+      <p>Real-time Translation Assistant</p>
+    </div>
+
+    <div class="chat-box" id="chat-box">
+      <!-- Messages will be added here -->
+    </div>
+
+    <div class="chat-input-area">
+      <div class="input-group">
+        <textarea id="input-text" placeholder="Type your message..."></textarea>
+        <button id="send-btn" onclick="translateText()"><i class="fas fa-paper-plane"></i></button>
+      </div>
+      <div class="language-options">
+        <label><input type="radio" name="language" value="fr" checked> <img src="assets/fr-flag.png"  class="fg-icon"alt=""></label>
+        <label><input type="radio" name="language" value="sp"> <img src="assets/sp-flag.png" class="fg-icon" alt=""></label>
+        <label><input type="radio" name="language" value="jp"> <img src="assets/jpn-flag.png" class="fg-icon" alt=""></label>
+      </div>
+    </div>
+  </div>
+
+  <script src="index2.js"></script>
+</body>
+</html>
