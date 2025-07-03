@@ -8,6 +8,8 @@ npm start
 Head over to https://vitejs.dev/ to learn more about configuring vite
 # 🌍 LinguaAI - Real-time AI Translator
 ![logo](public/assets/parrot.png)
+
+
 LinguaAI is a web-based translation app that leverages **OpenAI's GPT-4o-mini** model via the **Azure OpenAI API** to provide accurate, real-time translations through a dynamic chat-style interface.
 
 ## 🚀 Features
