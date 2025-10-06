@@ -12,7 +12,7 @@ take a look: https://ai-langua.onrender.com/
 -  Secure API access using Azure OpenAI credentials
 -  Educational breakdown of how prompt engineering, tokens, temperature, and fine-tuning work
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend:** HTML, CSS, Vanilla JavaScript  
 - **Backend:** Node.js (Express)  
